@@ -118,7 +118,7 @@ task :deploy => :before_deploy do
       exit(1)
     end
   end
-  Rake::Task[:after_deploy].execute
+  #Rake::Task[:after_deploy].execute
 end
 
 desc "Callback before deploys"
